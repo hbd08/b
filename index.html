@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDDHANKA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="logo">
+            <h1>BUDDHANKA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">☰</div>
+    </header>
+    <!-- GALLARY SECTION -->
+    <section class="image-gallery">
+        <h1>BUDDHANKA</h1>
+        <h2>Where Mind Is Fearless</h2>
+        <div class="gallery-grid">
+            <img src="image1.jpg" alt="Gallery Image 1">
+            <img src="image2.jpeg" alt="Gallery Image 2">
+            <img src="image3.jpeg" alt="Gallery Image 3">
+            <img src="image4.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <!-- MAIN SECTION -->
+
+    <section class="about-institution">
+        <div class="content-container">
+            <div class="text-content">
+                <h3>About the Institution</h3>
+                <p>BUDDHANKA Institute, established in 2022, is a progressive educational institution that offers a comprehensive learning experience from classes 6 to 12. It is dedicated to providing quality education in a nurturing environment. For students from classes 6 to 10, the institute offers a full range of subjects, ensuring a balanced curriculum that promotes academic excellence and holistic development. From classes 11 and 12, BUDDHANKA specializes in Commerce and Arts streams, helping students explore their career paths in fields like economics, business studies, history, and political science. The faculty comprises well-qualified and experienced teachers who are committed to nurturing students' academic potential and personal growth. In addition to the core academic curriculum, the institute offers computer classes to equip students with essential digital skills, which are increasingly vital in today’s tech-driven world. Moreover, BUDDHANKA offers spoken English classes to enhance communication skills, preparing students for global opportunities and helping them gain confidence in their interactions. BUDDHANKA strives to create a dynamic and inclusive educational environment where every student is encouraged to excel. With its dedicated approach to both academic and extracurricular development, the institute aims to shape future leaders and professionals.</p>
+            </div>
+            <div class="image-content">
+                <img src="buddhanka-logo.png" alt="About the Institution">
+            </div>
+        </div>
+    </section>
+
+    <!-- From the Head's Desk Section -->
+    <section class="from-head">
+        <div class="content-container reverse">
+            <div class="text-content">
+                <h3>From the Head's Desk</h3>
+                <p>“The purpose of education is to make good human beings with skill and expertise…Enlightened human beings can be created by teachers.” – Dr. A.P.J. Abdul Kalam. It is our immense pleasure to welcome you to Dinabandhu Andrews Institute of Technology and Management. Our college offers BBA, BBA in Hospital Management, BCA, B.Sc. In Medical Lab Technology, M.Sc. in Computer Science and M.Sc. in Applied Mathematics. As the Principal, it is both my honour and privilege to lead this vibrant educational institution. The college is committed to provide adequate knowledge to its students to think and perform logically. They are encouraged to develop themselves personally and professionally for the needs of industry and individual career development. Since the last twenty-two years our highly experienced, dedicated faculty members and competent mentors with their wealth of knowledge and passion for teaching, have ensured for our students a wholesome ambiance to instil a holistic development in every respect. In consequence, our institute has earned the reputation of being one of the leading Technology and Management Institutes of West Bengal. The college provides various value added, industry oriented training programs in emerging areas, various social activities, placement assistance and drives to inspire high technical, managerial skills , teamwork and leadership qualities for achieving excellence.</p>
+            </div>
+            <div class="image-content">
+                <img src="head.jpg" alt="From the Head's Desk">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-address">
+                <h3>Contact Us</h3>
+                <p>BUDDHANKA Address</p>
+                <p>123 Buddha Lane, Peace Town, Country</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-map">
+                <h3>Our Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.015807262147!2d144.9648738158195!3d-37.81249797975198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43e99bf3c3%3A0x490c8409bb44f2a8!2sFederation%20Square%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1641414386269!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="250" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        
+        <p>Developed by Nishanka Das  <a href="https://www.linkedin.com/in/nishanka-das/">(Contact)</a></p>
+    </footer>
+
+    <!-- Add your content here -->
+
+    <!-- Script moved to the end of the body -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navUl = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', () => {
+                navUl.classList.toggle('showing');
+            });
+        });
+    </script>
+</body>
+</html>
