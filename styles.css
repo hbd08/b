@@ -231,10 +231,107 @@ nav ul li a {
     background-color: #37160C;
 }
 
-/* Google Maps Section */
+/* Classes Section */
+
+.classes-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 10%;
+}
+
+.classes-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.class-buttons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.class-button {
+    background-color: #37160C;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.class-button:hover {
+    background-color: #0056b3;
+}
 
 
+/* Class 5 Page Styles */
+.class-section {
+    margin: 5%;
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: bisque;
+}
 
+.class-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.achievements-section,
+.notes-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: F4A73D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    max-width: 800px;
+
+}
+
+.achievements-section ul,
+.notes-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.achievements-section h3,
+.notes-section h3 {
+    color: #37160C;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.notes-section p {
+    font-size: 16px;
+}
+
+.notes-dropdown {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #F4A73D;
+    font-size: 16px;
+}
+
+.notes-content {
+    margin-top: 20px;
+}
+
+.notes-content h4 {
+    font-size: 24px;
+    color: #37160C;
+}
+
+.notes-content ul {
+    padding-left: 20px;
+    list-style-type: circle;
+}
 
 
 
@@ -324,11 +421,16 @@ footer p a{
 
     .faculty-image {
         width: 40px;
-        height: 40px;
+        height: 60px;
+        border-radius: 10px;
     }
     .btn-google-form {
 
         margin-top: 5%;
+    }
+
+    .class-buttons-container {
+        grid-template-columns: 1fr;
     }
 
 }
